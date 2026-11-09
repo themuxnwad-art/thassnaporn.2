@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องมือ AI</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    background: linear-gradient(135deg, #fff0f6, #e9dcff);
+    color: #51365e;
+}
+
+header {
+    background: linear-gradient(120deg, #ed9acb, #a58be8);
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+    border-radius: 0 0 45px 45px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+nav {
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+    display: inline-block;
+    background: white;
+    color: #a04eae;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover, nav .active {
+    background: #d77bbd;
+    color: white;
+    transform: translateY(-4px);
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #a04eae;
+    margin: 25px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 5px 20px #b88bc766;
+    transition: 0.4s;
+}
+
+.card:hover {
+    background: linear-gradient(135deg, #ffcce5, #dfcaff);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px #a77acb88;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #a04eae;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.8;
+}
+
+.tool-btn {
+    display: inline-block;
+    background: #b77acb;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.tool-btn:hover {
+    background: #e05aab;
+    transform: scale(1.05);
+}
+
+.content {
+    background: white;
+    padding: 25px;
+    margin-top: 35px;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+
+.content h2 {
+    color: #a04eae;
+}
+
+.next {
+    text-align: center;
+    margin: 35px;
+}
+
+.next a {
+    display: inline-block;
+    background: linear-gradient(120deg, #ed9acb, #a58be8);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.next a:hover {
+    background: #db65ad;
+}
+
+footer {
+    background: #a17ac1;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    line-height: 1.8;
+}
+
+@media(max-width: 750px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>💻 เครื่องมือ AI ที่นิยมใช้</h1>
+    <p>รู้จักเครื่องมือ AI ที่ช่วยออกแบบและพัฒนาเว็บไซต์</p>
+</header>
+
+<nav>
+    <a href="index.html">หน้าแรก</a>
+    <a href="page2.html">ประโยชน์ของ AI</a>
+    <a class="active" href="page3.html">เครื่องมือ AI</a>
+</nav>
+
+<div class="container">
+
+<h2 class="heading">💻 เครื่องมือ AI ที่นิยมใช้</h2>
+
+<div class="grid">
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600">
+    <h2>7. ChatGPT</h2>
+    <p>ช่วยสร้างโค้ด HTML และ CSS อธิบายวิธีเขียนเว็บไซต์และแก้ไขโค้ด</p>
+    <a class="tool-btn" href="https://chatgpt.com/" target="_blank">เข้าใช้งาน</a>
+</div>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600">
+    <h2>8. Canva AI</h2>
+    <p>ช่วยออกแบบภาพประกอบ แบนเนอร์ และองค์ประกอบกราฟิกสำหรับเว็บไซต์</p>
+    <a class="tool-btn" href="https://www.canva.com/" target="_blank">เข้าใช้งาน</a>
+</div>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600">
+    <h2>9. Google Gemini</h2>
+    <p>ช่วยคิดเนื้อหา วิเคราะห์ข้อมูล และแนะนำแนวทางในการสร้างเว็บไซต์</p>
+    <a class="tool-btn" href="https://gemini.google.com/" target="_blank">เข้าใช้งาน</a>
+</div>
+
+</div>
+
+<div class="content">
+    <h2>🌸 บทสรุป</h2>
+    <p>เครื่องมือ AI แต่ละชนิดมีความสามารถแตกต่างกัน ผู้ใช้งานสามารถเลือกใช้ให้เหมาะสมกับงาน เพื่อช่วยให้การสร้างเว็บไซต์มีประสิทธิภาพและสวยงามมากยิ่งขึ้น</p>
+</div>
+
+<div class="next">
+    <a href="index.html">← กลับหน้าแรก</a>
+    <a href="page2.html">← กลับไปประโยชน์ของ AI</a>
+</div>
+
+</div>
+
+<footer>
+    <h3>🌸 ขอบคุณที่เข้าชมเว็บไซต์ 🌸</h3>
+    <p>เรื่อง การประยุกต์ใช้ AI สร้างเว็บไซต์</p>
+    <p>ผู้จัดทำ : ทัศนาภรณ์</p>
+</footer>
+
+</body>
+</html>
